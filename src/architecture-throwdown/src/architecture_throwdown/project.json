@@ -11,10 +11,10 @@
     ],
     "dependencies": {
         "Microsoft.AspNet.Server.IIS": "1.0.0-beta1",
-        "Microsoft.AspNet.Server.WebListener": "1.0.0-alpha3",
-        "Microsoft.AspNet.StaticFiles": "1.0.0-alpha3",
-        "Microsoft.Framework.ConfigurationModel.Json": "1.0.0-alpha3",
-        "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0-alpha2"
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta1",
+        "Microsoft.AspNet.StaticFiles": "1.0.0-beta1",
+        "Microsoft.Framework.ConfigurationModel.Json": "1.0.0-beta1",
+        "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta1"
     },
     "commands": {
         /* Change the port number when you are self hosting this application */
