@@ -20,7 +20,10 @@ namespace architecture_throwdown.Controllers
 				"Yo codebase so heavy they only let it eat salad.",
 				"Yo dependencies so convoluted they call it the Alabama Family.",
 				"Yo code is so weird they call your test project Gandalf. None shall pass.",
-				"Yo design so astronautical they called NASA for a rescue."
+				"Yo design so astronautical they called NASA for a rescue.",
+				"Yo code is so bad even your scaffolding is made of spaghetti.",
+				"Yo architecture is so shaky your nickname is Jenga.",
+				"Yo code is so bad your co-workers asked you to practice the ZERO responsibility principle."
 			};
 			var slamViews = slamText.Select(t => new SlamViewModel(t));
 			var model = new HomePageViewModel(slamViews);
