@@ -1,0 +1,15 @@
+﻿@model architecture_throwdown.Models.HomePageViewModel
+@using architecture_throwdown.Helpers;
+
+<div class="well">
+
+	@for (var i = 0; i < Model.Slams.Length; i++)
+	{
+	<div class="panel panel-default @i.IsOdd("alternate")">
+		<div class="panel-body">
+			<p>@Model.Slams[i].Text</p>
+		</div>
+	</div>
+	}
+</div>
+

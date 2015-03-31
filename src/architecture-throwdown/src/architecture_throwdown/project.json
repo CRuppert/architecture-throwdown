@@ -10,13 +10,16 @@
         "**.vspscc"
     ],
     "dependencies": {
-        "Microsoft.Framework.ConfigurationModel": "1.0.0-beta3",
+        "mongocsharpdriver": "1.10.0",
+		"Microsoft.Framework.ConfigurationModel": "1.0.0-beta3",
+		"Microsoft.Framework.DependencyInjection": "1.0.0-beta3",
         "Microsoft.AspNet.Mvc": "6.0.0-beta3",
         "Microsoft.AspNet.Server.IIS": "1.0.0-beta3",
         "Microsoft.AspNet.Server.WebListener": "1.0.0-beta3",
         "Microsoft.AspNet.StaticFiles": "1.0.0-beta3",
         "Microsoft.Framework.ConfigurationModel.Json": "1.0.0-beta3",
-        "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta3"
+        "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta3",
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta3"
     },
     "commands": {
         /* Change the port number when you are self hosting this application */
